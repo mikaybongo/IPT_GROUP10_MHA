@@ -8,7 +8,7 @@ function Navbar({ activePage, navigate }) {
 
   return (
     <nav className="navbar">
-      <div className="nav-logo">LOGO</div>
+      <div className="nav-logo">MHA</div>
       <button className="hamburger" onClick={() => setMenuOpen(!menuOpen)}>
         <span /><span /><span />
       </button>
@@ -70,7 +70,7 @@ function AboutPage() {
   return (
     <div className="page" id="About">
       <div className="section about-section">
-        <h2 className="section-title-dark">Understanding Mental Health</h2>
+        <h2 className="section-title-dark">UNDERSTANDING MENTAL HEALTH</h2>
         <div className="about-grid">
           {[
             { title: "What's Mental Health", desc: "Mental health includes our emotional, psychological, and social well-being. It affects how we think, feel, and act in daily life. Taking care of mental health is just as important as taking care of physical health." },
@@ -88,9 +88,8 @@ function AboutPage() {
         <div className="contact-bar">
           <span className="contact-bar-title">Contact Information</span>
           <div className="contact-bar-row">
-            <div className="contact-field">name@gmail.com</div>
+            <div className="contact-field">mhagroup@gmail.com</div>
             <div className="contact-field">09123456789</div>
-            <button className="btn-navy">Get Support</button>
           </div>
         </div>
       </div>
@@ -155,7 +154,6 @@ function HelpPage() {
           <div className="hotline-bar">
             <div className="hotline-field">National Helpline: 123-456-7890</div>
             <div className="hotline-field">Emergency: 911</div>
-            <button className="btn-navy">Chat Support</button>
           </div>
         </div>
       </div>
@@ -181,7 +179,6 @@ function BlogPage() {
             <h2>Words that help you<br /><em>feel less alone.</em></h2>
             <p>Thoughtful reads on anxiety, coping, healing, and the everyday experience of taking care of your mind. Written by professionals and real people alike.</p>
           </div>
-          <div className="blog-hero-image">🏮</div>
         </div>
 
         <div className="blog-grid">
@@ -228,7 +225,7 @@ function ContactPage() {
         <div className="contact-body">
           <div className="contact-info-box">
             <h3>Contact Info</h3>
-            <p>✉️ name@gmail.com</p>
+            <p>✉️ mhagroup@gmail.com</p>
             <p>📞 09123456789</p>
             <p>📍 Bohol, Philippines</p>
           </div>

@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+.app {
+  background: #0f172a;
+  color: white;
+  min-height: 100vh;
+}
+
+/* NAVBAR */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 30px;
+  background: #1e293b;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+/* SECTIONS */
+.section {
+  margin: 30px;
+}
+
+.row {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+/* CARDS */
+.card {
+  background: #93c5fd;
+  color: black;
+  padding: 40px;
+  min-width: 150px;
+  text-align: center;
+  border-radius: 5px;
+  flex: 1;
+}

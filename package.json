@@ -1,18 +1,16 @@
 {
-  "homepage": "https://geonzonmichael-sys.github.io/IPT_GROUP10_MHA",
   "name": "mental-health-site",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://geonzonmichael-sys.github.io/IPT_GROUP10_MHA",
   "dependencies": {
-    "@testing-library/dom": "^10.4.1",
-    "@testing-library/jest-dom": "^6.9.1",
-    "@testing-library/react": "^16.3.2",
-    "@testing-library/user-event": "^13.5.0",
-    "gh-pages": "^6.3.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
   },
   "scripts": {
     "start": "react-scripts start",

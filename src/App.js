@@ -106,7 +106,7 @@ function ChatModal({ open, onClose }) {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
-        'Authorization': 'Bearer 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',
+        'Authorization': `Bearer ${process.env.REACT_APP_GROQ_API_KEY}`,
       },
       body: JSON.stringify({
         model: 'llama-3.3-70b-versatile',
